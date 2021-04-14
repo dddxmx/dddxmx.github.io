@@ -1,15 +1,15 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QT控件 | SPACE BLOG</title><meta name="keywords" content="QT"><meta name="author" content="dddxmx"><meta name="copyright" content="dddxmx"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="Buttons\1、PushButton控件**1）控件位置：Button-&gt;PushButton 2）控件介绍：该控件继承自QButton类，通常用于执行命令或触发事件。 3）控件属性设置选项： （1）name：该控件对应源代码中的名字。 （2）text：该控件对应图形界面中显示的名字。 （3）font：设置text的字体。 （4）enabled：该控件是否可用。 4）常用成员函数： （1">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Qt控件 | SPACE BLOG</title><meta name="keywords" content="Qt"><meta name="author" content="dddxmx"><meta name="copyright" content="dddxmx"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="ButtonsPushButton控件1）控件位置：Button-&gt;PushButton 2）控件介绍：该控件继承自QButton类，通常用于执行命令或触发事件。 3）控件属性设置选项： （1）name：该控件对应源代码中的名字。 （2）text：该控件对应图形界面中显示的名字。 （3）font：设置text的字体。 （4）enabled：该控件是否可用。 4）常用成员函数： （1）QPus">
 <meta property="og:type" content="article">
-<meta property="og:title" content="QT控件">
+<meta property="og:title" content="Qt控件">
 <meta property="og:url" content="http://example.com/2021/04/14/QT%E6%8E%A7%E4%BB%B6/index.html">
 <meta property="og:site_name" content="SPACE BLOG">
-<meta property="og:description" content="Buttons\1、PushButton控件**1）控件位置：Button-&gt;PushButton 2）控件介绍：该控件继承自QButton类，通常用于执行命令或触发事件。 3）控件属性设置选项： （1）name：该控件对应源代码中的名字。 （2）text：该控件对应图形界面中显示的名字。 （3）font：设置text的字体。 （4）enabled：该控件是否可用。 4）常用成员函数： （1">
+<meta property="og:description" content="ButtonsPushButton控件1）控件位置：Button-&gt;PushButton 2）控件介绍：该控件继承自QButton类，通常用于执行命令或触发事件。 3）控件属性设置选项： （1）name：该控件对应源代码中的名字。 （2）text：该控件对应图形界面中显示的名字。 （3）font：设置text的字体。 （4）enabled：该控件是否可用。 4）常用成员函数： （1）QPus">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://static.oschina.net/uploads/logo/qt_OB2aj.png">
 <meta property="article:published_time" content="2021-04-14T00:27:13.000Z">
-<meta property="article:modified_time" content="2021-04-14T01:02:06.449Z">
+<meta property="article:modified_time" content="2021-04-14T12:09:37.248Z">
 <meta property="article:author" content="dddxmx">
-<meta property="article:tag" content="QT">
+<meta property="article:tag" content="Qt">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://static.oschina.net/uploads/logo/qt_OB2aj.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2021/04/14/QT%E6%8E%A7%E4%BB%B6/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><script>var GLOBAL_CONFIG = { 
   root: '/',
@@ -80,7 +80,7 @@ var saveToLocal = {
   isHome: false,
   isHighlightShrink: false,
   isSidebar: true,
-  postUpdate: '2021-04-14 09:02:06'
+  postUpdate: '2021-04-14 20:09:37'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -142,7 +142,7 @@ var saveToLocal = {
     if (t === 'dark') activateDarkMode()
     else if (t === 'light') activateLightMode()
   }
-})()</script><meta name="generator" content="Hexo 5.2.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/ava.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">3</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">2</div></a></div></div></div><hr/></div></div><div id="body-wrap"><div id="web_bg"></div><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Buttons"><span class="toc-number">1.</span> <span class="toc-text">Buttons</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1%E3%80%81PushButton%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.1.</span> <span class="toc-text">\1、PushButton控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2%E3%80%81RadioButton%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.2.</span> <span class="toc-text">\2、RadioButton控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3%E3%80%81CheckBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.3.</span> <span class="toc-text">\3、CheckBox控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4%E3%80%81ToolButton%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.4.</span> <span class="toc-text">\4、ToolButton控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5%E3%80%81CommandLinkButton%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.5.</span> <span class="toc-text">\5、CommandLinkButton控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6%E3%80%81ButtonBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.6.</span> <span class="toc-text">\6、ButtonBox控件**</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Item-Views"><span class="toc-number">2.</span> <span class="toc-text">Item Views</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81ListView%E6%8E%A7%E4%BB%B6"><span class="toc-number">2.1.</span> <span class="toc-text">\一、ListView控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81TreeView%E6%8E%A7%E4%BB%B6"><span class="toc-number">2.2.</span> <span class="toc-text">\二、TreeView控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81TableView%E6%8E%A7%E4%BB%B6"><span class="toc-number">2.3.</span> <span class="toc-text">\三、TableView控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81ColumnView%E6%8E%A7%E4%BB%B6"><span class="toc-number">2.4.</span> <span class="toc-text">\四、ColumnView控件**</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Item-Widgets"><span class="toc-number">3.</span> <span class="toc-text">Item Widgets</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81ListWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">3.1.</span> <span class="toc-text">\一、ListWidget控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81TreeWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">3.2.</span> <span class="toc-text">\二、TreeWidget控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81TableWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">3.3.</span> <span class="toc-text">\三、TableWidget控件**</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Containers"><span class="toc-number">4.</span> <span class="toc-text">Containers</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81GroupBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.1.</span> <span class="toc-text">\一、GroupBox控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81ScrollArea%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.2.</span> <span class="toc-text">\二、ScrollArea控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81ToolBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.3.</span> <span class="toc-text">\三、ToolBox控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81TabWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.4.</span> <span class="toc-text">\四、TabWidget控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81StackedWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.5.</span> <span class="toc-text">\五、StackedWidget控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AD%E3%80%81Frame%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.6.</span> <span class="toc-text">\六、Frame控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%83%E3%80%81Widget%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.7.</span> <span class="toc-text">\七、Widget控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AB%E3%80%81MdiArea%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.8.</span> <span class="toc-text">\八、MdiArea控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B9%9D%E3%80%81DockWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.9.</span> <span class="toc-text">\九、DockWidget控件**</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Input-Widgets"><span class="toc-number">5.</span> <span class="toc-text">Input Widgets</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81ComboBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.1.</span> <span class="toc-text">\一、ComboBox控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81Font-ComboBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.2.</span> <span class="toc-text">\二、Font ComboBox控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81LineEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.3.</span> <span class="toc-text">\三、LineEdit控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81TextEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.4.</span> <span class="toc-text">\四、TextEdit控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81PlainTextEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.5.</span> <span class="toc-text">\五、PlainTextEdit控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AD%E3%80%81SpinBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.6.</span> <span class="toc-text">\六、SpinBox控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%83%E3%80%81Double-SpinBox"><span class="toc-number">5.7.</span> <span class="toc-text">\七、Double SpinBox**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AB%E3%80%81Slider%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.8.</span> <span class="toc-text">\八、Slider控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B9%9D%E3%80%81Dial%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.9.</span> <span class="toc-text">\九、Dial控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%81%E3%80%81ScrollBar%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.10.</span> <span class="toc-text">\十、ScrollBar控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%81%E4%B8%80%E3%80%81DateEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.11.</span> <span class="toc-text">\十一、DateEdit控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%81%E4%BA%8C%E3%80%81TimeEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.12.</span> <span class="toc-text">\十二、TimeEdit控件**</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%81%E4%B8%89%E3%80%81DateEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.13.</span> <span class="toc-text">\十三、DateEdit控件**</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Display-Widgets"><span class="toc-number">6.</span> <span class="toc-text">Display Widgets</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81Label%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.1.</span> <span class="toc-text">一、Label控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81TextBrowser%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.2.</span> <span class="toc-text">二、TextBrowser控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81GraphicsView%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.3.</span> <span class="toc-text">三、GraphicsView控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81Calendar%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.4.</span> <span class="toc-text">四、Calendar控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81LCDNumber%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.5.</span> <span class="toc-text">五、LCDNumber控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AD%E3%80%81ProgressBar%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.6.</span> <span class="toc-text">六、ProgressBar控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%83%E3%80%81Line%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.7.</span> <span class="toc-text">七、Line控件</span></a></li></ol></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://static.oschina.net/uploads/logo/qt_OB2aj.png)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">SPACE BLOG</a></span><span id="menus"><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">QT控件</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-04-14T00:27:13.000Z" title="发表于 2021-04-14 08:27:13">2021-04-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-04-14T01:02:06.449Z" title="更新于 2021-04-14 09:02:06">2021-04-14</time></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h3 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h3><h4 id="1、PushButton控件"><a href="#1、PushButton控件" class="headerlink" title="\1、PushButton控件**"></a><strong><em>\</em>1、PushButton控件**</strong></h4><p>1）控件位置：Button-&gt;PushButton</p>
+})()</script><meta name="generator" content="Hexo 5.2.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/ava.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">4</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">2</div></a></div></div></div><hr/></div></div><div id="body-wrap"><div id="web_bg"></div><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Buttons"><span class="toc-number">1.</span> <span class="toc-text">Buttons</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#PushButton%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.1.</span> <span class="toc-text">PushButton控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#RadioButton%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.2.</span> <span class="toc-text">RadioButton控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CheckBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.3.</span> <span class="toc-text">CheckBox控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ToolButton%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.4.</span> <span class="toc-text">ToolButton控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CommandLinkButton%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.5.</span> <span class="toc-text">CommandLinkButton控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ButtonBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">1.6.</span> <span class="toc-text">ButtonBox控件</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Item-Views"><span class="toc-number">2.</span> <span class="toc-text">Item Views</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#ListView%E6%8E%A7%E4%BB%B6"><span class="toc-number">2.1.</span> <span class="toc-text">ListView控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TreeView%E6%8E%A7%E4%BB%B6"><span class="toc-number">2.2.</span> <span class="toc-text">TreeView控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TableView%E6%8E%A7%E4%BB%B6"><span class="toc-number">2.3.</span> <span class="toc-text">TableView控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ColumnView%E6%8E%A7%E4%BB%B6"><span class="toc-number">2.4.</span> <span class="toc-text">ColumnView控件</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Item-Widgets"><span class="toc-number">3.</span> <span class="toc-text">Item Widgets</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#ListWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">3.1.</span> <span class="toc-text">ListWidget控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TreeWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">3.2.</span> <span class="toc-text">TreeWidget控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TableWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">3.3.</span> <span class="toc-text">TableWidget控件</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Containers"><span class="toc-number">4.</span> <span class="toc-text">Containers</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#GroupBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.1.</span> <span class="toc-text">GroupBox控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ScrollArea%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.2.</span> <span class="toc-text">ScrollArea控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ToolBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.3.</span> <span class="toc-text">ToolBox控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TabWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.4.</span> <span class="toc-text">TabWidget控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#StackedWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.5.</span> <span class="toc-text">StackedWidget控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Frame%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.6.</span> <span class="toc-text">Frame控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Widget%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.7.</span> <span class="toc-text">Widget控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#MdiArea%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.8.</span> <span class="toc-text">MdiArea控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DockWidget%E6%8E%A7%E4%BB%B6"><span class="toc-number">4.9.</span> <span class="toc-text">DockWidget控件</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Input-Widgets"><span class="toc-number">5.</span> <span class="toc-text">Input Widgets</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#ComboBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.1.</span> <span class="toc-text">ComboBox控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Font-ComboBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.2.</span> <span class="toc-text">Font ComboBox控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#LineEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.3.</span> <span class="toc-text">LineEdit控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TextEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.4.</span> <span class="toc-text">TextEdit控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#PlainTextEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.5.</span> <span class="toc-text">PlainTextEdit控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SpinBox%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.6.</span> <span class="toc-text">SpinBox控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Double-SpinBox"><span class="toc-number">5.7.</span> <span class="toc-text">Double SpinBox</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Slider%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.8.</span> <span class="toc-text">Slider控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Dial%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.9.</span> <span class="toc-text">Dial控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ScrollBar%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.10.</span> <span class="toc-text">ScrollBar控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DateEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.11.</span> <span class="toc-text">DateEdit控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TimeEdit%E6%8E%A7%E4%BB%B6"><span class="toc-number">5.12.</span> <span class="toc-text">TimeEdit控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DateEdit%E6%8E%A7%E4%BB%B6-1"><span class="toc-number">5.13.</span> <span class="toc-text">DateEdit控件</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Display-Widgets"><span class="toc-number">6.</span> <span class="toc-text">Display Widgets</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Label%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.1.</span> <span class="toc-text">Label控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#TextBrowser%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.2.</span> <span class="toc-text">TextBrowser控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#GraphicsView%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.3.</span> <span class="toc-text">GraphicsView控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Calendar%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.4.</span> <span class="toc-text">Calendar控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#LCDNumber%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.5.</span> <span class="toc-text">LCDNumber控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ProgressBar%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.6.</span> <span class="toc-text">ProgressBar控件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Line%E6%8E%A7%E4%BB%B6"><span class="toc-number">6.7.</span> <span class="toc-text">Line控件</span></a></li></ol></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://static.oschina.net/uploads/logo/qt_OB2aj.png)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">SPACE BLOG</a></span><span id="menus"><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">Qt控件</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-04-14T00:27:13.000Z" title="发表于 2021-04-14 08:27:13">2021-04-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-04-14T12:09:37.248Z" title="更新于 2021-04-14 20:09:37">2021-04-14</time></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h3 id="Buttons"><a href="#Buttons" class="headerlink" title="Buttons"></a>Buttons</h3><h4 id="PushButton控件"><a href="#PushButton控件" class="headerlink" title="PushButton控件"></a>PushButton控件</h4><p>1）控件位置：Button-&gt;PushButton</p>
 <p>2）控件介绍：该控件继承自QButton类，通常用于执行命令或触发事件。</p>
 <p>3）控件属性设置选项：</p>
 <p>（1）name：该控件对应源代码中的名字。</p>
@@ -162,7 +162,7 @@ var saveToLocal = {
 <p>设置该按钮上显示的文本。</p>
 <p>（6）QString QButton：：text（）const</p>
 <p>返回该按钮上显示的文本。</p>
-<h4 id="2、RadioButton控件"><a href="#2、RadioButton控件" class="headerlink" title="\2、RadioButton控件**"></a><strong><em>\</em>2、RadioButton控件**</strong></h4><p>1）控件位置：Buttons-&gt;RadioButton</p>
+<h4 id="RadioButton控件"><a href="#RadioButton控件" class="headerlink" title="RadioButton控件"></a>RadioButton控件</h4><p>1）控件位置：Buttons-&gt;RadioButton</p>
 <p>2）控件介绍：单选框，继承自QButton类，通常成组出现，用于提供两个或多个互斥选项。</p>
 <p>3）控件属性设置选项：</p>
 <p>（1）name：该控件对应源代码中所显示的名字。</p>
@@ -183,7 +183,7 @@ var saveToLocal = {
 <p>当更改checked属性值时，将发射信号。</p>
 <p>（6）void QRadioButton：：setChecked（bool check）[virtual slot]</p>
 <p>设置单选按钮是否被选中为check。</p>
-<h4 id="3、CheckBox控件"><a href="#3、CheckBox控件" class="headerlink" title="\3、CheckBox控件**"></a><strong><em>\</em>3、CheckBox控件**</strong></h4><p>1）控件位置：Buttons-&gt;CheckBox</p>
+<h4 id="CheckBox控件"><a href="#CheckBox控件" class="headerlink" title="CheckBox控件"></a>CheckBox控件</h4><p>1）控件位置：Buttons-&gt;CheckBox</p>
 <p>2）控件介绍：复选框，继承自QButton，与RadioButton的区别是选则模式，单选框提供多选一，复选框提供多选多。</p>
 <p>3）控件属性设置选项：</p>
 <p>（1）name：该控件对应源代码中所显示的名字。</p>
@@ -204,7 +204,7 @@ var saveToLocal = {
 <p>当更改checked属性时，将发射这个信号。</p>
 <p>（6）void QCheckBox：：setChecked（bool check）[槽]</p>
 <p>设置复选框是否选中，状态为check的值。</p>
-<h4 id="4、ToolButton控件"><a href="#4、ToolButton控件" class="headerlink" title="\4、ToolButton控件**"></a><strong><em>\</em>4、ToolButton控件**</strong></h4><p>1）控件位置：Buttons-&gt;ToolButton</p>
+<h4 id="ToolButton控件"><a href="#ToolButton控件" class="headerlink" title="ToolButton控件"></a>ToolButton控件</h4><p>1）控件位置：Buttons-&gt;ToolButton</p>
 <p>2）控件介绍：工具按钮，继承自QButton类，是一种用于命令或者选项的可以快速访问的按钮，通常在ToolBar里面。工具按钮通常显示的是图标，而不是文本标签。ToolButton支持自动浮起。在自动浮起模式中，按钮只有在鼠标指向它的时候才绘制三维的框架。</p>
 <p>3）控件设置选项：</p>
 <p>（1）name：该控件对应源代码中的名称。</p>
@@ -232,7 +232,7 @@ var saveToLocal = {
 <p>设置按钮的提示标签。</p>
 <p>（8）QString QToolButton：：textLabel（）const</p>
 <p>返回按钮的提示标签。</p>
-<h4 id="5、CommandLinkButton控件"><a href="#5、CommandLinkButton控件" class="headerlink" title="\5、CommandLinkButton控件**"></a><strong><em>\</em>5、CommandLinkButton控件**</strong></h4><p>1）控件位置：Buttons-&gt;CommandLinkButton</p>
+<h4 id="CommandLinkButton控件"><a href="#CommandLinkButton控件" class="headerlink" title="CommandLinkButton控件"></a>CommandLinkButton控件</h4><p>1）控件位置：Buttons-&gt;CommandLinkButton</p>
 <p>2）控件介绍：命令链接按钮，继承自QPushButton，用于在互斥选项中选择一项，CommandLinkButton除带有正常的按钮上的文字描述文本外，默认情况下，它也将携带一个箭头图标，表明按下按钮将打开另一个窗口或页面。</p>
 <p>3）控件属性设置选项：</p>
 <p>（1）name：该控件对应源代码中的名称。</p>
@@ -257,7 +257,7 @@ var saveToLocal = {
 <p>设置改按钮上显示的文本。</p>
 <p>（8）QString QButton：：text（）cosnt</p>
 <p>返回按钮上显示的文本。</p>
-<h4 id="6、ButtonBox控件"><a href="#6、ButtonBox控件" class="headerlink" title="\6、ButtonBox控件**"></a><strong><em>\</em>6、ButtonBox控件**</strong></h4><p>1）控件位置：Buttons-&gt;ButtonBox</p>
+<h4 id="ButtonBox控件"><a href="#ButtonBox控件" class="headerlink" title="ButtonBox控件"></a>ButtonBox控件</h4><p>1）控件位置：Buttons-&gt;ButtonBox</p>
 <p>2）控件介绍：按钮键，室友QDialogButtonBox类包装成的。</p>
 <p>3）控件属性设置选项：</p>
 <p>（1）name：该控件对应源代码中的名称。</p>
@@ -291,7 +291,7 @@ var saveToLocal = {
 <p>当单击按钮盒里定义为RejectRole和NoRole的按钮时，发射这个信号。</p>
 <p>（12）void QDialogButtonBox：：removeButton（QAbstractButton *button）</p>
 <p>移除按钮盒里的按钮Button，但是不删除，设置它的父母为0.</p>
-<h3 id="Item-Views"><a href="#Item-Views" class="headerlink" title="Item Views"></a>Item Views</h3><h4 id="一、ListView控件"><a href="#一、ListView控件" class="headerlink" title="\一、ListView控件**"></a><strong><em>\</em>一、ListView控件**</strong></h4><p>  1.控件位置：Item Views-&gt;ListView</p>
+<h3 id="Item-Views"><a href="#Item-Views" class="headerlink" title="Item Views"></a>Item Views</h3><h4 id="ListView控件"><a href="#ListView控件" class="headerlink" title="ListView控件"></a>ListView控件</h4><p>  1.控件位置：Item Views-&gt;ListView</p>
 <p>  2.控件介绍：列表视图，继承自QAbstractItemView。ListView是基于模型的列表/图标视图，为Qt的模型/视图结构提供了更灵活的方式。</p>
 <p>  3.控件属性设置：</p>
 <p>​    （1）name：该控件对应源代码中的名称。</p>
@@ -313,7 +313,7 @@ var saveToLocal = {
 <p>​    插入新行，新行的父母是parent，从start到end的所有项目。</p>
 <p>​    （6）QModelIndexList QListView：：selectedIndexes（）const[virtual protected]</p>
 <p>​    返回所有选中的非隐藏的项目的模型索引。</p>
-<h4 id="二、TreeView控件"><a href="#二、TreeView控件" class="headerlink" title="\二、TreeView控件**"></a><strong><em>\</em>二、TreeView控件**</strong></h4><p>  1.控件位置：Item View-&gt;TreeView</p>
+<h4 id="TreeView控件"><a href="#TreeView控件" class="headerlink" title="TreeView控件"></a>TreeView控件</h4><p>  1.控件位置：Item View-&gt;TreeView</p>
 <p>  2.控件介绍：树形视图，继承自QAbstractItemView，是基于模型的列表/图标视图，也是Qt模型/视图框架的一部分。</p>
 <p>  3.控件属性设置选项：</p>
 <p>​    （1）name：该控件对应源代码中的名称。</p>
@@ -368,7 +368,7 @@ var saveToLocal = {
 <p>​    设置该TreeView的标题为header</p>
 <p>​    （24）void QTreeView：：sortByColumn（int column，QT：：SortOrder order）</p>
 <p>​    对列column按order进行排序</p>
-<h4 id="三、TableView控件"><a href="#三、TableView控件" class="headerlink" title="\三、TableView控件**"></a><strong><em>\</em>三、TableView控件**</strong></h4><p>  1.控件位置：Item View-&gt;TableView</p>
+<h4 id="TableView控件"><a href="#TableView控件" class="headerlink" title="TableView控件"></a>TableView控件</h4><p>  1.控件位置：Item View-&gt;TableView</p>
 <p>  2.控件介绍：表格视图，是一个模型/视图结构的表视图实现，用来显示模型的项目。它提供了QTable类提供的标准表格。是Qt的模型/视图框架的一部分。由QAbstractItemView类定义的接口来实现，使其能够显示由QAbstractItemModel类派生的模型提供的数据。</p>
 <p>  3.控件属性设置选项：</p>
 <p>​    （1）name：该控件对应源代码中的名称</p>
@@ -414,7 +414,7 @@ var saveToLocal = {
 <p>​    显示行row</p>
 <p>​    （18）QHeaderView *QTableView：：verticalHeader（）const</p>
 <p>​    返回TableView的垂直标题</p>
-<h4 id="四、ColumnView控件"><a href="#四、ColumnView控件" class="headerlink" title="\四、ColumnView控件**"></a><strong><em>\</em>四、ColumnView控件**</strong></h4><p>  1.控件位置：Item View-&gt;ColumnView<br>  2.控件介绍：列视图<br>  3.控件属性设置选项：</p>
+<h4 id="ColumnView控件"><a href="#ColumnView控件" class="headerlink" title="ColumnView控件"></a>ColumnView控件</h4><p>  1.控件位置：Item View-&gt;ColumnView<br>  2.控件介绍：列视图<br>  3.控件属性设置选项：</p>
 <p>​    （1）name：该控件对应源代码中的名字<br>​    （2）font：设置表格内部的字体</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QColumnView：：QColumnView（QWidget *parent = 0）</p>
@@ -433,7 +433,7 @@ var saveToLocal = {
 <p>​    设置该ColumnView中的所有项目为选中状态</p>
 <p>​    （8）void QColumnView：：setPreviewWidget（QWidget *widget）</p>
 <p>​    设置widget为该columnView的预览组件。</p>
-<h3 id="Item-Widgets"><a href="#Item-Widgets" class="headerlink" title="Item Widgets"></a>Item Widgets</h3><h4 id="一、ListWidget控件"><a href="#一、ListWidget控件" class="headerlink" title="\一、ListWidget控件**"></a><strong><em>\</em>一、ListWidget控件**</strong></h4><p>  1.控件位置：Item Widget-&gt;ListWidget<br>  2.控件介绍：ListWidget继承自QListView类，基于Item的列表控件。<br>  3.控件属性设置选项：</p>
+<h3 id="Item-Widgets"><a href="#Item-Widgets" class="headerlink" title="Item Widgets"></a>Item Widgets</h3><h4 id="ListWidget控件"><a href="#ListWidget控件" class="headerlink" title="ListWidget控件"></a>ListWidget控件</h4><p>  1.控件位置：Item Widget-&gt;ListWidget<br>  2.控件介绍：ListWidget继承自QListView类，基于Item的列表控件。<br>  3.控件属性设置选项：</p>
 <p>​    （1）name：该控件对应源代码内的名称<br>​    （2）font：设置该表格内部的字体<br>​    （3）count：保持项目的数目<br>​    （4）currentRow：保持当前项目的行<br>​    （5）sortingEnabled：是否对item排序</p>
 <p>  4.常用成员函数：</p>
 <p>​    （1）QListWidget：：QListWidget（QWidget *parent = 0）</p>
@@ -481,7 +481,7 @@ var saveToLocal = {
 <p>​    （22）void QListWidget：：setItemWidget（QListWidgetItem *item，QWidget *widget）</p>
 <p>​    （23）void QListWidget：：sortItems（Qt：：SortOrder order = Qt：：AscendingOrder）</p>
 <p>​    把项目按照order进行排序</p>
-<h4 id="二、TreeWidget控件"><a href="#二、TreeWidget控件" class="headerlink" title="\二、TreeWidget控件**"></a><strong><em>\</em>二、TreeWidget控件**</strong></h4><p>  1.控件位置：Item Widget-&gt;TreeWidget<br>  2.控件介绍：树形单元控件，继承自QTreeView类，是树形视图使用预定义的模型，他也是基于模型/视图结构的控件，为方便开发人员使用树形视图，可以使用这个控件来创建简单地树形结构列表<br>  3.控件属性设置选项：</p>
+<h4 id="TreeWidget控件"><a href="#TreeWidget控件" class="headerlink" title="TreeWidget控件"></a>TreeWidget控件</h4><p>  1.控件位置：Item Widget-&gt;TreeWidget<br>  2.控件介绍：树形单元控件，继承自QTreeView类，是树形视图使用预定义的模型，他也是基于模型/视图结构的控件，为方便开发人员使用树形视图，可以使用这个控件来创建简单地树形结构列表<br>  3.控件属性设置选项：</p>
 <p>​    （1）name：同上<br>​    （2）font：同上<br>​    （3）columnCount：保存该TreeWidget的列数</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QTreeWidget：：QTreeWidget（QWidget *parent = 0）</p>
@@ -539,7 +539,7 @@ var saveToLocal = {
 <p>​    设置label为头标题</p>
 <p>​    （28）QTreeWidgetItem *QTreeWidget：：topLevelItem（int index）cosnt</p>
 <p>​    返回所有index的顶级项目</p>
-<h4 id="三、TableWidget控件"><a href="#三、TableWidget控件" class="headerlink" title="\三、TableWidget控件**"></a><strong><em>\</em>三、TableWidget控件**</strong></h4><p>  1.控件位置：Item Widget-&gt;Table Widget<br>  2.控件介绍：表格单元控件<br>  3.控件属性设置选项：</p>
+<h4 id="TableWidget控件"><a href="#TableWidget控件" class="headerlink" title="TableWidget控件"></a>TableWidget控件</h4><p>  1.控件位置：Item Widget-&gt;Table Widget<br>  2.控件介绍：表格单元控件<br>  3.控件属性设置选项：</p>
 <p>​    （1）name：同上<br>​    （2）font：同上<br>​    （3）columnCount：保存列的数目<br>​    （4）rowCount：保存行的数目</p>
 <p>​    4.常用成员函数</p>
 <p>​    （1）QTableWidget：：QTableWidget（QWidget * parent = 0）</p>
@@ -604,13 +604,13 @@ var saveToLocal = {
 <p>​    移除行row、列column单元格处的项目</p>
 <p>​    （31）QTableWidgetItem *QTableWidget：：verticalHeaderItem（int row）const</p>
 <p>​    返回行row的垂直头项目</p>
-<h3 id="Containers"><a href="#Containers" class="headerlink" title="Containers"></a>Containers</h3><h4 id="一、GroupBox控件"><a href="#一、GroupBox控件" class="headerlink" title="\一、GroupBox控件**"></a><strong><em>\</em>一、GroupBox控件**</strong></h4><p>  1.控件位置：Containers-&gt;GroupBox</p>
+<h3 id="Containers"><a href="#Containers" class="headerlink" title="Containers"></a>Containers</h3><h4 id="GroupBox控件"><a href="#GroupBox控件" class="headerlink" title="GroupBox控件"></a>GroupBox控件</h4><p>  1.控件位置：Containers-&gt;GroupBox</p>
 <p>  2.控件介绍：GroupBox好处就是用户可以比较清晰地了解程序的界面，我们可以把功能相关的控件放到一个GroupBox中。</p>
 <p>  3.控件属性设置选项：</p>
 <p>​    （1）name：该控件对应源代码中的名称</p>
 <p>​    （2）title：该控件对应图形界面中所显示的名称</p>
 <p>​    （3）font：设置title的字体</p>
-<h4 id="二、ScrollArea控件"><a href="#二、ScrollArea控件" class="headerlink" title="\二、ScrollArea控件**"></a><strong><em>\</em>二、ScrollArea控件**</strong></h4><p>  1.控件位置：Containers-&gt;ScrollArea</p>
+<h4 id="ScrollArea控件"><a href="#ScrollArea控件" class="headerlink" title="ScrollArea控件"></a>ScrollArea控件</h4><p>  1.控件位置：Containers-&gt;ScrollArea</p>
 <p>  2.控件介绍：用来显示子控件的内容的框架，如果子控件的尺寸超过了框架的大小，可以使用滚动条，方便查看整个子控件</p>
 <p>  3.控件属性设置选项：</p>
 <p>​    （1）neme：同上</p>
@@ -624,7 +624,7 @@ var saveToLocal = {
 <p>​    删除该ScrollArea的子控件</p>
 <p>​    （4）QWidget *QScrollArea：：widget（）const</p>
 <p>​    返回该ScrollArea的子控件</p>
-<h4 id="三、ToolBox控件"><a href="#三、ToolBox控件" class="headerlink" title="\三、ToolBox控件**"></a><strong><em>\</em>三、ToolBox控件**</strong></h4><p>  1.控件位置：Containers-&gt;ToolBox</p>
+<h4 id="ToolBox控件"><a href="#ToolBox控件" class="headerlink" title="ToolBox控件"></a>ToolBox控件</h4><p>  1.控件位置：Containers-&gt;ToolBox</p>
 <p>  2.控件介绍：ToolBox提供了一系列的页和隔间，就像Qt Creator中的工具箱一样。</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：同上</p>
@@ -664,7 +664,7 @@ var saveToLocal = {
 <p>​    设置索引item为当前活动的项目</p>
 <p>​    （15）void QToolBox：：setItemLabel（int index，const QString &amp;label）</p>
 <p>​    设置label为索引index位置的项目的标签文本</p>
-<h4 id="四、TabWidget控件"><a href="#四、TabWidget控件" class="headerlink" title="\四、TabWidget控件**"></a><strong><em>\</em>四、TabWidget控件**</strong></h4><p>  1.控件位置：Containers-&gt;TabWidget</p>
+<h4 id="TabWidget控件"><a href="#TabWidget控件" class="headerlink" title="TabWidget控件"></a>TabWidget控件</h4><p>  1.控件位置：Containers-&gt;TabWidget</p>
 <p>  2.控件介绍：切换卡控件顶部或底部有一个标签选项栏，每个标签选项都有一个页面，选择哪个页面，只需单击对应的标签即可，或按指定ALT+字母快捷键组合即可。</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：同上</p>
@@ -708,7 +708,7 @@ var saveToLocal = {
 <p>​    设置索引index处子页为当前活动页</p>
 <p>​    （17）void QTabWidget：：setTabLabel（QWidget *w，const QString &amp;label）</p>
 <p>​    设置子页w的标签文本为label</p>
-<h4 id="五、StackedWidget控件"><a href="#五、StackedWidget控件" class="headerlink" title="\五、StackedWidget控件**"></a><strong><em>\</em>五、StackedWidget控件**</strong></h4><p>​    1.控件位置：Containers-&gt;StackedWidget</p>
+<h4 id="StackedWidget控件"><a href="#StackedWidget控件" class="headerlink" title="StackedWidget控件"></a>StackedWidget控件</h4><p>​    1.控件位置：Containers-&gt;StackedWidget</p>
 <p>​    2.控件介绍：Qt提供了这样一个控件栈，可以使开发人员使用栈管理控件，像用栈管理其他数据类型一样简单。控件栈只显示栈顶的控件，开发人员可以使用raiseWidget（）函数把栈中任何其他控件移到栈顶，从而实现控件之间的切换。</p>
 <p>​    3.控件属性设置选项：</p>
 <p>​      （1）name：同上</p>
@@ -730,7 +730,7 @@ var saveToLocal = {
 <p>​      把控件w从该控件栈中删除</p>
 <p>​      （7）QWidget *QWidgetStack：：widget（int id）const</p>
 <p>​      返回标识为id的控件</p>
-<h4 id="六、Frame控件"><a href="#六、Frame控件" class="headerlink" title="\六、Frame控件**"></a><strong><em>\</em>六、Frame控件**</strong></h4><p>​    1.控件位置：Containers-&gt;Frame</p>
+<h4 id="Frame控件"><a href="#Frame控件" class="headerlink" title="Frame控件"></a>Frame控件</h4><p>​    1.控件位置：Containers-&gt;Frame</p>
 <p>​    2.控件介绍：框架控件用来存放其他控件，也可用于装饰，它一般用来作为更加复杂容器的基础。也可以用在form中作为占用控件。</p>
 <p>​    3.控件属性设置选项：</p>
 <p>​      （1）name：同上</p>
@@ -741,7 +741,7 @@ var saveToLocal = {
 <p>​    4.常用成员函数</p>
 <p>​      （1）QFrame：：QFrame（QWidget *parent = 0，const char *name = 0，WFlags f = 0）</p>
 <p>​      构造一个框架风格为NoFrame并且1像素框架宽度的框架窗口部件，如：QFrame *f = new（）；</p>
-<h4 id="七、Widget控件"><a href="#七、Widget控件" class="headerlink" title="\七、Widget控件**"></a><strong><em>\</em>七、Widget控件**</strong></h4><p>​    1.控件位置：Containers-&gt;Widget</p>
+<h4 id="Widget控件"><a href="#Widget控件" class="headerlink" title="Widget控件"></a>Widget控件</h4><p>​    1.控件位置：Containers-&gt;Widget</p>
 <p>​    2.控件介绍：Widget组件在创建时是不可见的，他可以包含子控件，在删除该Widget时，子控件也一起删除。</p>
 <p>​    3.控件属性设置选项：</p>
 <p>​      （1）name：同上</p>
@@ -758,7 +758,7 @@ var saveToLocal = {
 <p>​      在该Widget坐标系统中像素位置（x，y）处绘制字符串str</p>
 <p>​      （5）void QWidget：：drawText（const QPoint &amp;p，const QString &amp;str）</p>
 <p>​      在该Widget坐标系统中位置p处绘制字符串str</p>
-<h4 id="八、MdiArea控件"><a href="#八、MdiArea控件" class="headerlink" title="\八、MdiArea控件**"></a><strong><em>\</em>八、MdiArea控件**</strong></h4><p>​    1.控件位置：Containers-&gt;MdiArea<br>​    2.控件介绍：MdiArea控件中文称作“MDI窗口显示区”，MDI是Multiple Document Interface的简称，中文意思是多文档界面，主要适用于完成一项工作时需要用到多个文件。QMainWindow是SDI（Signal Document Interface，单文档界面）每个开启的文件占据一个视窗，主要适用于所有工作没有太多文件参与的情况。<br>​    3.控件属性设置选项；</p>
+<h4 id="MdiArea控件"><a href="#MdiArea控件" class="headerlink" title="MdiArea控件"></a>MdiArea控件</h4><p>​    1.控件位置：Containers-&gt;MdiArea<br>​    2.控件介绍：MdiArea控件中文称作“MDI窗口显示区”，MDI是Multiple Document Interface的简称，中文意思是多文档界面，主要适用于完成一项工作时需要用到多个文件。QMainWindow是SDI（Signal Document Interface，单文档界面）每个开启的文件占据一个视窗，主要适用于所有工作没有太多文件参与的情况。<br>​    3.控件属性设置选项；</p>
 <p>​      （1）name：同上<br>​      （2）font：同上<br>​      （3）viewMode：设置视图模式Qt提供TabbedView和SubWindowView两种选择<br>​      （4）documentMode：保存的标签栏在选项卡视图模式是否设置为文件的模式，默认为false。<br>​      （5）tabShape：（当viewMode是TabbedView时）设置该MdiArea的标签形式Qt提供两种选择：Rounded和Triangular。<br>​      （6）tabPosition：（当viewMode是TabbedView时）设置标签所在方向<br>​      （7）activeSubWindowName：子窗口的名称<br>​      （8）activeSubWindowTitle：子窗口的标签</p>
 <p>​    4.常用成员函数</p>
 <p>​      （1）QMdiArea：：QMdiArea（QWidget *parent = 0）</p>
@@ -781,7 +781,7 @@ var saveToLocal = {
 <p>​      删除widget，widget必须是该MdiArea的子部件</p>
 <p>​      （10）void QMdiArea：：setActiveSubWindow（QMdiSubWindow *window）[slot]</p>
 <p>​      设置子窗口window为当前活动子窗口</p>
-<h4 id="九、DockWidget控件"><a href="#九、DockWidget控件" class="headerlink" title="\九、DockWidget控件**"></a><strong><em>\</em>九、DockWidget控件**</strong></h4><p>​    1.控件位置：Containers-&gt;DockWidget</p>
+<h4 id="DockWidget控件"><a href="#DockWidget控件" class="headerlink" title="DockWidget控件"></a>DockWidget控件</h4><p>​    1.控件位置：Containers-&gt;DockWidget</p>
 <p>​    2.控件介绍：停靠窗体，可以作为一个顶层窗口漂浮在桌面，主要作为辅助窗体出现在界面中，可以在很多IDE中看到停靠窗体</p>
 <p>​    3.控件属性设置选项</p>
 <p>​      （1）name：同上</p>
@@ -805,7 +805,7 @@ var saveToLocal = {
 <p>​      设置widget为该DockWidget的部件，在调用这个函数之前，必须添加布局，否则widget就是不可见的</p>
 <p>​      （6）QWidget *DockWidget：：widget（）const</p>
 <p>​      返回该DockWidget的部件，如果没有设置部件，则返回0</p>
-<h3 id="Input-Widgets"><a href="#Input-Widgets" class="headerlink" title="Input Widgets"></a>Input Widgets</h3><h4 id="一、ComboBox控件"><a href="#一、ComboBox控件" class="headerlink" title="\一、ComboBox控件**"></a><strong><em>\</em>一、ComboBox控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;ComboBox</p>
+<h3 id="Input-Widgets"><a href="#Input-Widgets" class="headerlink" title="Input Widgets"></a>Input Widgets</h3><h4 id="ComboBox控件"><a href="#ComboBox控件" class="headerlink" title="ComboBox控件"></a>ComboBox控件</h4><p>  1.控件位置：Input Widgets-&gt;ComboBox</p>
 <p>  2.控件介绍：略</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：该控件对应源代码中的名称</p>
@@ -839,7 +839,7 @@ var saveToLocal = {
 <p>​    删除索引为index处项目</p>
 <p>​    （12）void QComboBox：：setCurrentItem（int index）[virtual]</p>
 <p>​    把索引index处的项目设为当前项目</p>
-<h4 id="二、Font-ComboBox控件"><a href="#二、Font-ComboBox控件" class="headerlink" title="\二、Font ComboBox控件**"></a><strong><em>\</em>二、Font ComboBox控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;Font ComboBox</p>
+<h4 id="Font-ComboBox控件"><a href="#Font-ComboBox控件" class="headerlink" title="Font ComboBox控件"></a>Font ComboBox控件</h4><p>  1.控件位置：Input Widgets-&gt;Font ComboBox</p>
 <p>  2.控件介绍：字体组合框继承于QComboBox类，Font ComboBox组合框分为两部分显示：顶部是一个允许输入文本的文本框，下面的列表框则显示列表项，Font ConboBox就是文本框与列表框的组合，但是不能选择多项，只能选择其中一项，专门用于字体选择</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：同上</p>
@@ -852,7 +852,7 @@ var saveToLocal = {
 <p>  4.常用成员函数</p>
 <p>​    （1）QFontComboBox：：QFontComboBox（QWidget *parent = 0）</p>
 <p>​    构造一个父对象为parent的Font ComboBox</p>
-<h4 id="三、LineEdit控件"><a href="#三、LineEdit控件" class="headerlink" title="\三、LineEdit控件**"></a><strong><em>\</em>三、LineEdit控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;LineEdit<br>  2.控件介绍：行编辑是一种常用且比较容易掌握的控件，应用程序主要用它来接收输入文字信息。<br>  3.控件属性设置选项</p>
+<h4 id="LineEdit控件"><a href="#LineEdit控件" class="headerlink" title="LineEdit控件"></a>LineEdit控件</h4><p>  1.控件位置：Input Widgets-&gt;LineEdit<br>  2.控件介绍：行编辑是一种常用且比较容易掌握的控件，应用程序主要用它来接收输入文字信息。<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）text：同上<br>​    （3）font：同上<br>​    （4）ReadOnly：用来获取或设置一个值，该值指示文本框中的文本是否为只读，值为true时为只读，值为false为可读写</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QLineEidt：：QLineEdit（QWidget *parent，const char *name = 0）</p>
@@ -869,11 +869,11 @@ var saveToLocal = {
 <p>​    设置行编辑的文本</p>
 <p>​    （7）QString QLineEdit：：text（）const</p>
 <p>​    返回行编辑的文本</p>
-<h4 id="四、TextEdit控件"><a href="#四、TextEdit控件" class="headerlink" title="\四、TextEdit控件**"></a><strong><em>\</em>四、TextEdit控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;TextEdit</p>
+<h4 id="TextEdit控件"><a href="#TextEdit控件" class="headerlink" title="TextEdit控件"></a>TextEdit控件</h4><p>  1.控件位置：Input Widgets-&gt;TextEdit</p>
 <p>  2.控件介绍：文本编辑控件主要用它输入文本信息或显示文本信息，TextEdit的属性和成员函数与LineEdit基本相同。</p>
-<h4 id="五、PlainTextEdit控件"><a href="#五、PlainTextEdit控件" class="headerlink" title="\五、PlainTextEdit控件**"></a><strong><em>\</em>五、PlainTextEdit控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;PlainTextEdit<br>  2.控件介绍：PlainTextEdit控件中文称作“文本编辑“，PlainTextEdit和TextEdit控件只是样式不同，可以通过设置属性来改变样式<br>  3.常用成员函数</p>
+<h4 id="PlainTextEdit控件"><a href="#PlainTextEdit控件" class="headerlink" title="PlainTextEdit控件"></a>PlainTextEdit控件</h4><p>  1.控件位置：Input Widgets-&gt;PlainTextEdit<br>  2.控件介绍：PlainTextEdit控件中文称作“文本编辑“，PlainTextEdit和TextEdit控件只是样式不同，可以通过设置属性来改变样式<br>  3.常用成员函数</p>
 <p>​    （1）QPlainTextEdit：：QPlainTextEdit（QWidget *parent = 0）<br>​    （2）QPlainTextEdit：：QPlainTextEdit（const QString &amp;text，QWidget *parent = 0）</p>
-<h4 id="六、SpinBox控件"><a href="#六、SpinBox控件" class="headerlink" title="\六、SpinBox控件**"></a><strong><em>\</em>六、SpinBox控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;SpinBox<br>  2.控件介绍：整数旋转框允许用户通过单击向上/向下按钮来增加/减少当前显示的值，也可以直接输入旋转框的值，如果该值是直接输入选择框，一般需要按Enter键确认新值。有的版本不需要，该值通常是一个整数。<br>  3.控件属性设置选项</p>
+<h4 id="SpinBox控件"><a href="#SpinBox控件" class="headerlink" title="SpinBox控件"></a>SpinBox控件</h4><p>  1.控件位置：Input Widgets-&gt;SpinBox<br>  2.控件介绍：整数旋转框允许用户通过单击向上/向下按钮来增加/减少当前显示的值，也可以直接输入旋转框的值，如果该值是直接输入选择框，一般需要按Enter键确认新值。有的版本不需要，该值通常是一个整数。<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）font：同上<br>​    （3）value：SpinBox默认值<br>​    （4）lineStep；使用箭头来改变选择框的值的递增/递减量<br>​    （5）minValue：SpinBox的最小值<br>​    （6）maxValue：SpinBox的最大值<br>​    （7）prefix：SpinBox的前缀字符串<br>​    （8）Suffix：SpinBox的后缀字符串</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QSpinBox：：QSpinBox（QWidget *parent = 0，const char *name = 0）</p>
@@ -900,7 +900,7 @@ var saveToLocal = {
 <p>​    设置旋转框的前缀字符</p>
 <p>​    （12）void QSpinBox：：setSuffix（const QString &amp;text）[virtual slot]</p>
 <p>​    设置旋转框的后缀字符</p>
-<h4 id="七、Double-SpinBox"><a href="#七、Double-SpinBox" class="headerlink" title="\七、Double SpinBox**"></a><strong><em>\</em>七、Double SpinBox**</strong></h4><p>  1.控件位置：Input-&gt;Double SpinBox</p>
+<h4 id="Double-SpinBox"><a href="#Double-SpinBox" class="headerlink" title="Double SpinBox"></a>Double SpinBox</h4><p>  1.控件位置：Input-&gt;Double SpinBox</p>
 <p>  2.控件介绍：小数旋转框，继承与QSpinBox，可以表示小数，其他与QSpinBox功能相同</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：同上</p>
@@ -915,7 +915,7 @@ var saveToLocal = {
 <p>  4.常用成员函数</p>
 <p>​    （1）QDoubleSpinBox：：QDoubleSpinBox（QWidget *parent = 0）</p>
 <p>​    构造一个父对象为parent的Double SpinBox</p>
-<h4 id="八、Slider控件"><a href="#八、Slider控件" class="headerlink" title="\八、Slider控件**"></a><strong><em>\</em>八、Slider控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;Horizontal/Vertical Slider<br>  2.控件介绍：滑动条分为Horizontal/Vertical Slider两个控件，但功能相同，两种滑动条之间可以相互转换，只需改变orientation属性即可<br>  3.控件属性设置选项</p>
+<h4 id="Slider控件"><a href="#Slider控件" class="headerlink" title="Slider控件"></a>Slider控件</h4><p>  1.控件位置：Input Widgets-&gt;Horizontal/Vertical Slider<br>  2.控件介绍：滑动条分为Horizontal/Vertical Slider两个控件，但功能相同，两种滑动条之间可以相互转换，只需改变orientation属性即可<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）font：同上<br>​    （3）lineStep：滑动条值的最小跨度<br>​    （4）value：滑动条的值<br>​    （5）minValue；滑动条的最小值<br>​    （6）maxValue：滑动条的最大值<br>​    （7）orientation：滑动条的布局方向，Qt提供Horizontal/Vertical Slider两种选择</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QSlider：：QSlider（QWidget *parent，const char *name =0）</p>
@@ -928,7 +928,7 @@ var saveToLocal = {
 <p>​    设置该滑动条的值为v</p>
 <p>​    （5）int QSlider：：value（）const</p>
 <p>​    返回滑动条的值</p>
-<h4 id="九、Dial控件"><a href="#九、Dial控件" class="headerlink" title="\九、Dial控件**"></a><strong><em>\</em>九、Dial控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;Dial<br>  2.控件介绍：表盘控件可用来描述各式各样的仪表盘样式<br>  3.控件属性设置选项</p>
+<h4 id="Dial控件"><a href="#Dial控件" class="headerlink" title="Dial控件"></a>Dial控件</h4><p>  1.控件位置：Input Widgets-&gt;Dial<br>  2.控件介绍：表盘控件可用来描述各式各样的仪表盘样式<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）font：同上<br>​    （3）lineStep：表盘值的最小跨度<br>​    （4）value：表盘的值<br>​    （5）minValue：表盘的最小值<br>​    （6）maxValue：表盘的最大值<br>​    （7）notchTarget：表盘的刻度<br>​    （8）notchesVisible：是否显示表盘刻度，值为true时显示，否则不显示</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QDial：：QDial（QWidget *parent = 0，cosnt char *name = 0，WFlags f = 0）</p>
@@ -939,7 +939,7 @@ var saveToLocal = {
 <p>​    设置该仪表盘的值为v</p>
 <p>​    （4）int QDial：：value（）const</p>
 <p>​    返回该表盘的值</p>
-<h4 id="十、ScrollBar控件"><a href="#十、ScrollBar控件" class="headerlink" title="\十、ScrollBar控件**"></a><strong><em>\</em>十、ScrollBar控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;Horizontal/Vertical ScrollBar<br>  2.控件介绍：滚动条ScrollBar和Slider相同。<br>  3.控件属性设置选项</p>
+<h4 id="ScrollBar控件"><a href="#ScrollBar控件" class="headerlink" title="ScrollBar控件"></a>ScrollBar控件</h4><p>  1.控件位置：Input Widgets-&gt;Horizontal/Vertical ScrollBar<br>  2.控件介绍：滚动条ScrollBar和Slider相同。<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）font：设置滑动条上的字体<br>​    （3）lineStep：滑动条的最小跨度<br>​    （4）value：滑动条的值<br>​    （5）minValue：滑动条的最小值<br>​    （6）maxValue：滑动条的最大值<br>​    （7）orientation：滑动条的布局方向，Qt提供Horizontal/Vertical两种</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QScrollBar：：QScrollBar（QWidget *parent，const char *name = 0）</p>
@@ -950,7 +950,7 @@ var saveToLocal = {
 <p>​    设置该滚动条的值为v</p>
 <p>​    （4）int QScrollBar：：value（）const</p>
 <p>​    返回滚动条的值</p>
-<h4 id="十一、DateEdit控件"><a href="#十一、DateEdit控件" class="headerlink" title="\十一、DateEdit控件**"></a><strong><em>\</em>十一、DateEdit控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;DateEdit</p>
+<h4 id="DateEdit控件"><a href="#DateEdit控件" class="headerlink" title="DateEdit控件"></a>DateEdit控件</h4><p>  1.控件位置：Input Widgets-&gt;DateEdit</p>
 <p>  2.控件介绍：日期编辑框用于编辑和显示日期的控件</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：同上</p>
@@ -974,7 +974,7 @@ var saveToLocal = {
 <p>​    设置DateEdit控件Date的Month为month，必须确保month为有效值</p>
 <p>​    （7）void QDateEdit：：setYear（int year）[virtual protected]</p>
 <p>​    设置DateEdit控件Date的Year为year，必须确保year为有效值</p>
-<h4 id="十二、TimeEdit控件"><a href="#十二、TimeEdit控件" class="headerlink" title="\十二、TimeEdit控件**"></a><strong><em>\</em>十二、TimeEdit控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;TimeEdit</p>
+<h4 id="TimeEdit控件"><a href="#TimeEdit控件" class="headerlink" title="TimeEdit控件"></a>TimeEdit控件</h4><p>  1.控件位置：Input Widgets-&gt;TimeEdit</p>
 <p>  2.控件介绍：用来编辑和显示时间的控件</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：同上</p>
@@ -998,9 +998,9 @@ var saveToLocal = {
 <p>​    设置TimeEdit控件Time的Minute为m，必须确保m为有效值</p>
 <p>​    （7）void QTimeEdit：：setSecond（int s）[virtual protected]</p>
 <p>​    设置TimeEdit控件Time的Second为s，必须确保s为有效值</p>
-<h4 id="十三、DateEdit控件"><a href="#十三、DateEdit控件" class="headerlink" title="\十三、DateEdit控件**"></a><strong><em>\</em>十三、DateEdit控件**</strong></h4><p>  1.控件位置：Input Widgets-&gt;DateTimeEdit<br>  2.控件介绍：日期时间编辑框是一个用来编辑和显示日期和时间的控件，相当于把DateEdit和TimeEdit联合起来使用<br>  3.控件属性设置选项</p>
+<h4 id="DateEdit控件-1"><a href="#DateEdit控件-1" class="headerlink" title="DateEdit控件"></a>DateEdit控件</h4><p>  1.控件位置：Input Widgets-&gt;DateTimeEdit<br>  2.控件介绍：日期时间编辑框是一个用来编辑和显示日期和时间的控件，相当于把DateEdit和TimeEdit联合起来使用<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）font：设置文本框的字体<br>​    （3）datetime：显示的日期和时间</p>
-<h3 id="Display-Widgets"><a href="#Display-Widgets" class="headerlink" title="Display Widgets"></a>Display Widgets</h3><h4 id="一、Label控件"><a href="#一、Label控件" class="headerlink" title="一、Label控件"></a><em>一、Label控件</em></h4><p>  1.控件位置：DisplayWidgets-&gt;Label</p>
+<h3 id="Display-Widgets"><a href="#Display-Widgets" class="headerlink" title="Display Widgets"></a>Display Widgets</h3><h4 id="Label控件"><a href="#Label控件" class="headerlink" title="Label控件"></a>Label控件</h4><p>  1.控件位置：DisplayWidgets-&gt;Label</p>
 <p>  2.控件介绍：略</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：该控件对应源代码中的名称</p>
@@ -1017,7 +1017,7 @@ var saveToLocal = {
 <p>​    设置标签的文本</p>
 <p>​    （5）QString QLabel：：text（）const</p>
 <p>​    返回标签的文本</p>
-<h4 id="二、TextBrowser控件"><a href="#二、TextBrowser控件" class="headerlink" title="二、TextBrowser控件"></a><em>二、TextBrowser控件</em></h4><p>  1.控件位置：DisplayWidgets-&gt;TextBrowser<br>  2.控件介绍：文本浏览器继承自QTextEdit，TextBrowser是只读的，不允许对内容进行更改，但是相对于QTextEdit来讲，它还具有链接文本的作用<br>  3.控件属性设置选项</p>
+<h4 id="TextBrowser控件"><a href="#TextBrowser控件" class="headerlink" title="TextBrowser控件"></a>TextBrowser控件</h4><p>  1.控件位置：DisplayWidgets-&gt;TextBrowser<br>  2.控件介绍：文本浏览器继承自QTextEdit，TextBrowser是只读的，不允许对内容进行更改，但是相对于QTextEdit来讲，它还具有链接文本的作用<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）font：同上<br>​    （3）frameShape：边框样式<br>​    （4）frameShadow：边框阴影，Qt Designer提供了plain、raised、sunken<br>​    （5）lineWidth：边框线宽<br>​    （6）text：显示的文本<br>​    （7）source：显示的文件名称，如果没有文件显示或来源，则显示空字符串</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QTextBrowser：：QTextBrowser（！QWidget *parent = 0，const char *name = 0）</p>
@@ -1036,7 +1036,7 @@ var saveToLocal = {
 <p>​    设置当前显示的文件名称为name</p>
 <p>​    （8）QString QTextBrowser：：source（）const</p>
 <p>​    返回当前显示的文件的文件名称</p>
-<h4 id="三、GraphicsView控件"><a href="#三、GraphicsView控件" class="headerlink" title="三、GraphicsView控件"></a><em>三、GraphicsView控件</em></h4><p>  1.控件位置：DisplayWidgets-&gt;GraphicsView</p>
+<h4 id="GraphicsView控件"><a href="#GraphicsView控件" class="headerlink" title="GraphicsView控件"></a>GraphicsView控件</h4><p>  1.控件位置：DisplayWidgets-&gt;GraphicsView</p>
 <p>  2.控件介绍：绘图视图是用于显示QGraphicsScene内容的控件，GraphicsView框架为2D绘图提供一个简单、容易使用、功能强大的解决方案。GraphicsView框架由三个主要的类组成：QGraphicsItem、QGraphicsScene和QGraphicsView。其中QGraphicsItem定义图元，QGraphicsScene定义场景，包含所有需要绘制的图元，根据用户的操作改变图元的状态。QGraphicsView定义观察场景的视窗，可以充当绘图的区域，成为独立的窗体被弹出，或者嵌入其他UI组件中形成符合UI组件</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：同上</p>
@@ -1075,7 +1075,7 @@ var saveToLocal = {
 <p>​    设置场景scene为当前可视化场景</p>
 <p>​    （15）void QGraphicsView：：updateScene（const QList<QRectF> &amp;rects）[slot]</QRectF></p>
 <p>​    更新场景</p>
-<h4 id="四、Calendar控件"><a href="#四、Calendar控件" class="headerlink" title="四、Calendar控件"></a><em>四、Calendar控件</em></h4><p>  1.控件位置：DisplayWidgets-&gt;Calendar<br>  2.控件介绍：日历控件<br>  3.控件属性设置选项</p>
+<h4 id="Calendar控件"><a href="#Calendar控件" class="headerlink" title="Calendar控件"></a>Calendar控件</h4><p>  1.控件位置：DisplayWidgets-&gt;Calendar<br>  2.控件介绍：日历控件<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）font：同上<br>​    （3）selectdDate：当前日期<br>​    （4）minimumDate：该日历控件能够显示的最小日期<br>​    （5）maxmumDate：该日历控件能够显示的最大日期<br>​    （6）firstDayOfWeek：每星期的第一天<br>​    （7）gridVisible：是否显示网格<br>​    （8）dateEditEnable：是否允许编辑日历</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QCalendarWidget：：QCalendarWidget（QWidget *parent = 0）</p>
@@ -1092,7 +1092,7 @@ var saveToLocal = {
 <p>​    显示系统当前日期</p>
 <p>​    （7）int QCalendarWidget：：yearShown（）const</p>
 <p>​    返回当前显示的年份</p>
-<h4 id="五、LCDNumber控件"><a href="#五、LCDNumber控件" class="headerlink" title="五、LCDNumber控件"></a><em>五、LCDNumber控件</em></h4><p>  1.控件位置：DisplayWidgets-&gt;LCDNumber</p>
+<h4 id="LCDNumber控件"><a href="#LCDNumber控件" class="headerlink" title="LCDNumber控件"></a>LCDNumber控件</h4><p>  1.控件位置：DisplayWidgets-&gt;LCDNumber</p>
 <p>  2.控件介绍：LCD数字显示框可以显示十六进制，十进制，八进制或二进制数</p>
 <p>  3.控件属性设置选项</p>
 <p>​    （1）name：同上</p>
@@ -1121,7 +1121,7 @@ var saveToLocal = {
 <p>​    返回显示框最大可以显示的数字位数，对应numDigits属性</p>
 <p>​    （8）double QLCDNumber：：value（）const</p>
 <p>​    返回该LCDNumber显示的值</p>
-<h4 id="六、ProgressBar控件"><a href="#六、ProgressBar控件" class="headerlink" title="六、ProgressBar控件"></a><em>六、ProgressBar控件</em></h4><p>  1.控件位置：DisplayWidgets-&gt;ProgressBar<br>  2.控件介绍：进度条显示为一个水平进度条，一个进度条是用来给用户显示操作进度的，证明他们的应用程序还在运行，进度条控件非常常见<br>  3.控件属性设置选项</p>
+<h4 id="ProgressBar控件"><a href="#ProgressBar控件" class="headerlink" title="ProgressBar控件"></a>ProgressBar控件</h4><p>  1.控件位置：DisplayWidgets-&gt;ProgressBar<br>  2.控件介绍：进度条显示为一个水平进度条，一个进度条是用来给用户显示操作进度的，证明他们的应用程序还在运行，进度条控件非常常见<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）font：同上<br>​    （3）frameShape：边框样式<br>​    （4）frameShadow：边框阴影<br>​    （5）lineWidth：边框线宽<br>​    （6）progress：进度条当前的进度值</p>
 <p>  4.常用成员函数</p>
 <p>​    （1）QProgressBar：：QProgressBar（QWidget *parent = 0，const char *name = 0，WFlags f = 0）</p>
@@ -1134,6 +1134,6 @@ var saveToLocal = {
 <p>​    设置该进度条的当前进度值为progress</p>
 <p>​    （5）void QProgressBar：：reset（）[slot]</p>
 <p>​    把进度条恢复到初始状态</p>
-<h4 id="七、Line控件"><a href="#七、Line控件" class="headerlink" title="七、Line控件"></a><em>七、Line控件</em></h4><p>  1.控件位置：DisplayWidgets-&gt;Horizontal/Vertical Line<br>  2.控件介绍：线条用来装饰界面的控件，在界面中适当添加Line控件可以使界面更加美观、清晰<br>  3.控件属性设置选项</p>
+<h4 id="Line控件"><a href="#Line控件" class="headerlink" title="Line控件"></a>Line控件</h4><p>  1.控件位置：DisplayWidgets-&gt;Horizontal/Vertical Line<br>  2.控件介绍：线条用来装饰界面的控件，在界面中适当添加Line控件可以使界面更加美观、清晰<br>  3.控件属性设置选项</p>
 <p>​    （1）name：同上<br>​    （2）frameShadow：plain、raised、sunken<br>​    （3）lineWidth：线条线宽<br>​    （4）orientation：线条布局方向</p>
-</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">dddxmx</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2021/04/14/QT%E6%8E%A7%E4%BB%B6/">http://example.com/2021/04/14/QT%E6%8E%A7%E4%BB%B6/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">SPACE BLOG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/QT/">QT</a></div><div class="post_share"><div class="social-share" data-image="https://static.oschina.net/uploads/logo/qt_OB2aj.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2021/04/14/QT%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/"><img class="next-cover" src="https://static.oschina.net/uploads/logo/qt_OB2aj.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">QT常用快捷方式</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2021/04/14/QT常用快捷方式/" title="QT常用快捷方式"><img class="cover" src="https://static.oschina.net/uploads/logo/qt_OB2aj.png"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-14</div><div class="title">QT常用快捷方式</div></div></a></div></div></div></article></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By dddxmx</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/assets/miku.model.json"},"display":{"superSample":2,"width":120,"height":200,"position":"right","hOffset":20,"vOffset":50},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false});</script></body></html>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">dddxmx</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2021/04/14/QT%E6%8E%A7%E4%BB%B6/">http://example.com/2021/04/14/QT%E6%8E%A7%E4%BB%B6/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">SPACE BLOG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Qt/">Qt</a></div><div class="post_share"><div class="social-share" data-image="https://static.oschina.net/uploads/logo/qt_OB2aj.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2021/04/14/Qt%E6%A0%B7%E5%BC%8F%E8%A1%A8/"><img class="prev-cover" src="https://static.oschina.net/uploads/logo/qt_OB2aj.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Qt样式表</div></div></a></div><div class="next-post pull-right"><a href="/2021/04/14/QT%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/"><img class="next-cover" src="https://static.oschina.net/uploads/logo/qt_OB2aj.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Qt常用快捷方式</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2021/04/14/QT常用快捷方式/" title="Qt常用快捷方式"><img class="cover" src="https://static.oschina.net/uploads/logo/qt_OB2aj.png"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-14</div><div class="title">Qt常用快捷方式</div></div></a></div><div><a href="/2021/04/14/Qt样式表/" title="Qt样式表"><img class="cover" src="https://static.oschina.net/uploads/logo/qt_OB2aj.png"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-04-14</div><div class="title">Qt样式表</div></div></a></div></div></div></article></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By dddxmx</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/assets/miku.model.json"},"display":{"superSample":2,"width":120,"height":200,"position":"right","hOffset":20,"vOffset":50},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false});</script></body></html>
